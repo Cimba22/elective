@@ -2,12 +2,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <title>Elective</title>
 </head>
+
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<div class = "container">
+    <div class="login-container">
+        <form class = "login" action="login" method="POST">
+            <label>
+                <input name = "email" type="text" placeholder="  email@email.com">
+            </label>
+            <label>
+                <input name = "password" type="password" placeholder="  password">
+            </label>
+            <button class="sing-in" type="submit">Sing in</button>
+            <button class="sing-up">Sing up</button>
+<%--            <input type="submit" class="sub" value="login"/>--%>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>

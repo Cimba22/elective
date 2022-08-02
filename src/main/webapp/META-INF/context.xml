@@ -1,0 +1,17 @@
+<Context>
+    <Resource
+            type="javax.sql.DataSource"
+            name="jdbc/elective"
+            maxIdle="30"
+            maxTotal="1000"
+            maxWaitMillis="10000"
+            driverClassName="com.mysql.jdbc.Driver"
+            password="lion"
+            username="Cimba"
+            url="jdbc:mysql://localhost:3306/elective"/>
+</Context>
+
+<!--maxIdle — (int) The maximum number of connections that should be kept in the pool **at all times.** -->
+
+<!--        maxActive-->
+<!--        the maximum number of active connections that can be allocated from this pool at the same time.-->
