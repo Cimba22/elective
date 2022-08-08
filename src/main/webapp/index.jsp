@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,23 +6,12 @@
     <title>Elective</title>
 </head>
 
+<header>
+    <a href=login>Sign in</a>
+    <a href="registration">Sign up</a>
+</header>
 <body>
 
-<div class = "container">
-    <div class="login-container">
-        <form class = "login" action="login" method="POST">
-            <label>
-                <input name = "email" type="text" placeholder="  email@email.com">
-            </label>
-            <label>
-                <input name = "password" type="password" placeholder="  password">
-            </label>
-            <button class="sing-in" type="submit">Sing in</button>
-            <button class="sing-up">Sing up</button>
-<%--            <input type="submit" class="sub" value="login"/>--%>
-        </form>
-    </div>
-</div>
 
 </body>
 </html>
